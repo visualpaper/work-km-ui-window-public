@@ -5,7 +5,7 @@
   - 本制約都合、Shift キーを押して開く or 別タブで開いた後に別 Window に移動するよう運用でカバーを打診予定
 
 * 画面のボタンでタブ/ウィンドウを閉じる制御について([参照](https://github.com/visualpaper/work-km-ui-window-public/blob/main/%E8%AA%B2%E9%A1%8C1.md))
-  - 原則、JavaScript で開いた画面のみ閉じることが可能だが、詳細な制限の調査が現実的でない
+  - 原則、JavaScript で開いた画面のみ閉じることが可能だが、[詳細な制限](https://html.spec.whatwg.org/multipage/nav-history-apis.html#dom-window-close)の調査が現実的でない
   - 上記より、閉じるのでなく別の画面 (xx 画面であれば xx メニュー画面に遷移とか) に遷移するよう挙動変更可能かを打診したい
 
 * 戻る/進む、リロード、URL 直打ち、閉じる制御について([参照](https://github.com/visualpaper/work-km-ui-window-public/blob/main/%E8%AA%B2%E9%A1%8C2.md))  
